@@ -23,7 +23,7 @@ function App() {
     return (
       <div className="loading-container">
         <div className="loading-spinner"></div>
-        <p>Memuat...</p>
+        <p>Initializing secure connection...</p>
       </div>
     );
   }
