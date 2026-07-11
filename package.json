@@ -1,7 +1,7 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "description": "Server untuk penghapusan file",
+  "name": "real-deletion-server",
+  "version": "3.0.0",
+  "description": "Real Server for Secure File & Video Deletion",
   "main": "src/index.js",
   "scripts": {
     "start": "react-scripts start",
@@ -21,7 +21,10 @@
     "react-hot-toast": "^2.4.1",
     "@mui/material": "^5.14.0",
     "@emotion/react": "^11.11.0",
-    "@emotion/styled": "^11.11.0"
+    "@emotion/styled": "^11.11.0",
+    "react-helmet-async": "^2.0.4",
+    "chart.js": "^4.4.0",
+    "react-chartjs-2": "^5.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.0",
