@@ -1,0 +1,41 @@
+{
+  "name": "secure-deletion-backend",
+  "version": "1.0.0",
+  "description": "Secure Deletion Server Backend API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "build": "npm run clean && npm run build:prod",
+    "build:prod": "node src/index.js",
+    "clean": "rm -rf dist",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "firebase-admin": "^11.11.0",
+    "mongoose": "^7.5.0",
+    "redis": "^4.6.10",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "helmet": "^7.0.0",
+    "compression": "^1.7.4",
+    "express-rate-limit": "^6.11.2",
+    "winston": "^3.10.0",
+    "joi": "^17.9.2",
+    "uuid": "^9.0.0",
+    "crypto-js": "^4.1.1",
+    "axios": "^1.6.0",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.6.4",
+    "supertest": "^6.3.3",
+    "eslint": "^8.48.0",
+    "prettier": "^3.0.3"
+  }
+}
